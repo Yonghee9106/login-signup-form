@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Signup Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
@@ -19,7 +20,7 @@
                         <input type="email" name="" placeholder="Enter Email" id="">
                         <input type="password" name="" placeholder="Enter Password" id="">
                         <input type="submit" value="Login">
-                        <p class="signup">Don't have an Account? <a href="#">Sign Up</a></p>
+                        <p class="signup">Don't have an Account? <a href="#" onclick="javascript:doToggle();">Sign Up</a></p>
                     </form>
                 </div>
             </div>
@@ -32,7 +33,7 @@
                         <input type="password" name="" placeholder="Enter Password" id="">
                         <input type="password" name="" placeholder="Confirm Password" id="">
                         <input type="submit" value="Sign Up">
-                        <p class="signup">Already have an Account? <a href="#">Sign In</a></p>
+                        <p class="signup">Already have an Account? <a href="#" onclick="javascript:doToggle();">Sign In</a></p>
                     </form>
                 </div>
                 <div class="imgBx">
@@ -41,5 +42,11 @@
             </div>
         </div>
     </section>
+    <script type="text/javascript">
+        function doToggle(){
+            var container = document.querySelector('.container');
+                container.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
