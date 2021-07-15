@@ -69,3 +69,28 @@ section .container .user .formBx input{
     margin: 8px 0;
     letter-spacing: 2px;
 }
+section .container .user .formBx form input[type="submit"]{
+    max-width:100%;
+    background-color: #677eff;
+    color:#fff;
+    cursor:pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+section .container.active .user .formBx form input[type="submit"]{
+    background-color: #e73e49;
+}
+section .container .user .formBx form .signup{
+    position:relative;
+    margin-top:20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color:#555;
+    text-transform: uppercase;
+}
+section .container .user .formBx form .signup a{
+    font-weight: 600;
+    text-decoration: none;
+    color:#677eff
+}
