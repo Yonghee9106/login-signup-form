@@ -19,12 +19,12 @@ section .container{
     position: relative;
     width:800px;
     height:500px;
-    background-color: #fff;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .5);
+//    overflow: hidden;
 }
 section .container .user{
-    position: absolute;
+    position:absolute;
     top:0;
     left:0;
     width: 100%;
@@ -93,4 +93,32 @@ section .container .user .formBx form .signup a{
     font-weight: 600;
     text-decoration: none;
     color:#677eff
+}
+section .container .signupBx{
+    pointer-events: none;
+}
+section .container .signupBx .formBx{
+    left:100%;
+}
+section .container.active .signupBx .formBx{
+    left:0;
+}
+section .container .signupBx .imgBx{
+    left:-100%;
+}
+section .container.active .signupBx .formBx{
+    left:0;
+}
+
+section .container .signinBx .formBx{
+    left:0%;
+}
+section .container.active .signinBx .formBx{
+    left:-100%;
+}
+section .container .signinBx .imgBx{
+    left:0;
+}
+section .container.active .signinBx .formBx{
+    left:100%;
 }
