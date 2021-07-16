@@ -4,4 +4,5 @@ A sample Login/Signup form using HTML, CSS and JavaScript
 # Sample Link
 
 # Features
-* Bullet list
+* Responsive
+* 
