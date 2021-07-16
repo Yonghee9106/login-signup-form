@@ -1,5 +1,5 @@
 # Login & Signup Form
-A sample Login/Signup form using HTML, CSS and JavaScript.
+A responsive Login & Signup form using HTML, CSS and JavaScript.
 
 # Sample Link
 
