@@ -9,7 +9,7 @@
 section{
     position: relative;
     min-height: 100vh;
-    background-color: #fee648;
+    background-color: #FFE4C4;
     padding:20px;
     display:flex;
     justify-content: center;
@@ -19,7 +19,7 @@ section .container{
     position: relative;
     width:800px;
     height:500px;
-    background: #fff;
+    background:white;
     box-shadow: 0 15px 50px rgba(0, 0, 0, .5);
     overflow: hidden;
 }
@@ -31,14 +31,14 @@ section .container .user{
     height: 100%;
     display:flex;
 }
-section .container .user .imgBx{
+section .container .user .imgBox{
     position:relative;
     width:50%;
     height:100%;
     background-color: #fff;
     transition: 0.5s;
 }
-section .container .user .imgBx img{
+section .container .user .imgBox img{
     position: absolute;
     top:0;
     left:0;
@@ -47,7 +47,7 @@ section .container .user .imgBx img{
     object-fit: cover;
 
 }
-section .container .user .formBx{
+section .container .user .formBox{
     position: relative;
     width:50%;
     height:100;
@@ -58,7 +58,7 @@ section .container .user .formBx{
     padding:40px;
     transition: 0.5s;
 }
-section .container .user .formBx h2{
+section .container .user .formBox h2{
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ section .container .user .formBx h2{
     margin-bottom: 10px;
     color:#555;
 }
-section .container .user .formBx input{
+section .container .user .formBox input{
     width:100%;
     font-weight: 600;
     background-color: #f5f5f5;
@@ -80,7 +80,7 @@ section .container .user .formBx input{
     margin: 8px 0;
     letter-spacing: 2px;
 }
-section .container .user .formBx form input[type="submit"]{
+section .container .user .formBox form input[type="submit"]{
     max-width:100%;
     background-color: #677eff;
     color:#fff;
@@ -89,10 +89,10 @@ section .container .user .formBx form input[type="submit"]{
     font-weight: 600;
     letter-spacing: 2px;
 }
-section .container.active .user .formBx form input[type="submit"]{
+section .container.active .user .formBox form input[type="submit"]{
     background-color: #e73e49;
 }
-section .container .user .formBx form .signup{
+section .container .user .formBox form .signup{
     position:relative;
     margin-top:20px;
     font-size: 12px;
@@ -100,41 +100,41 @@ section .container .user .formBx form .signup{
     color:#555;
     text-transform: uppercase;
 }
-section .container .user .formBx form .signup a{
+section .container .user .formBox form .signup a{
     font-weight: 600;
     text-decoration: none;
     color:#677eff
 }
-section .container .signupBx{
+section .container .signupBox{
     pointer-events: none;
 }
-section .container.active .signupBx{
+section .container.active .signupBox{
     pointer-events: initial;
 }
 
-section .container .signupBx .formBx{
+section .container .signupBox .formBox{
     left:100%;
 }
-section .container.active .signupBx .formBx{
+section .container.active .signupBox .formBox{
     left:0;
 }
-section .container .signupBx .imgBx{
+section .container .signupBox .imgBox{
     left:-100%;
 }
-section .container.active .signupBx .imgBx{
+section .container.active .signupBox .imgBox{
     left:0;
 }
 
-section .container .signinBx .formBx{
+section .container .signinBox .formBox{
     left:0%;
 }
-section .container.active .signinBx .formBx{
+section .container.active .signinBox .formBox{
     left:-100%;
 }
-section .container .signinBx .imgBx{
+section .container .signinBox .imgBox{
     left:0;
 }
-section .container.active .signinBx .imgBx{
+section .container.active .signinBox .imgBox{
     left:100%;
 }
 
@@ -142,10 +142,10 @@ section .container.active .signinBx .imgBx{
     section .container{
         max-width: 400px;
     }
-    section .container .imgBx{
+    section .container .imgBox{
         display: none;
     }
-    section .container .user .formBx{
+    section .container .user .formBox{
         width:100%;
     }
 }
