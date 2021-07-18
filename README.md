@@ -5,6 +5,7 @@ A responsive Login & Signup form using HTML, CSS and JavaScript.
 * Responsive UI
 * Form Validation
 * Moder & simple design
+* 
 
 # Sample Link
 * 
