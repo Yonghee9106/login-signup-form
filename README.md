@@ -3,7 +3,7 @@ A responsive Login & Signup form using HTML, CSS and JavaScript.
 
 # Features
 * Responsive UI
-* Form Validation
+* Form validation
 * Modern & simple design
 * No library used
 
