@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinBox">
+                <div class="imgBox">
+                    <img src="signinIMG.jpg" alt="">
+                </div>
+                <div class="formBox">
+                    <form action="">
+                        <h2>Login</h2>
+                        <input type="email" name="" placeholder="Enter Email" id="">
+                        <input type="password" name="" placeholder="Enter Password" id="">
+                        <input type="submit" value="Login">
+                        <p class="signup">Don't have an Account? <a href="#" onclick="javascript:doToggle();">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+            <div class="user signupBox">
+                <div class="formBox">
+                    <form action="">
+                        <h2>Create An Account</h2>
+                        <input type="text" name="" placeholder="Enter Username" id="">
+                        <input type="email" name="" placeholder="Enter Email" id="">
+                        <input type="password" name="" placeholder="Enter Password" id="">
+                        <input type="password" name="" placeholder="Confirm Password" id="">
+                        <input type="submit" value="Sign Up">
+                        <p class="signup">Already have an Account? <a href="#" onclick="javascript:doToggle();">Login</a></p>
+                    </form>
+                </div>
+                <div class="imgBox">
+                    <img src="signupIMG.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function doToggle(){
+            var container = document.querySelector('.container');
+                container.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
